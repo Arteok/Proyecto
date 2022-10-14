@@ -1,0 +1,1535 @@
+<!doctype html>
+<html class="no-js" lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#a9191b">
+	<link href="https://untdf.edu.ar/img/favicon.png" rel="shortcut icon" />
+	<title>Universidad Nacional de Tierra del Fuego, Antártida e Islas del Atlántico Sur (UNTDF)</title>
+
+	<script src="https://untdf.edu.ar/js/jquery.min.js" language="javascript"></script>
+	<link media="all" type="text/css" rel="stylesheet" href="https://untdf.edu.ar/css/app.min.css">
+	<link media="all" type="text/css" rel="stylesheet" href="https://untdf.edu.ar/css/comun.css">
+
+	<script>
+		$(document).ready(function () {
+			$(".twistie").click(function (e) {
+				$(this).parent().find(".contenido").toggle(300, function () {
+					if ($(this).css("display") == "none") {
+						$(this).parent().find(".twistie").html(
+							"<img src='https://untdf.edu.ar/img/twistie_r.png' width='15px' />");
+					} else {
+						$(this).parent().find(".twistie").html(
+							"<img src='https://untdf.edu.ar/img/twistie_d.png' width='15px' />");
+					}
+				});
+			});
+		});
+	</script>
+	<style>
+		div.seccion {
+			border-top: 1px solid #c0c0c0;
+			border-bottom: 1px solid #c0c0c0;
+		}
+
+		div.seccion div.twistie {
+			cursor: pointer;
+			display: inline-block;
+		}
+
+		div.seccion div.twistie img {
+			width: 15px;
+		}
+
+		table.tabla-plana td {
+			background-color: #fff !important;
+			border: 1px solid #c0c0c0;
+		}
+	</style>
+	<link media="all" type="text/css" rel="stylesheet" href="https://untdf.edu.ar/css/home.css">
+	<link media="all" type="text/css" rel="stylesheet" href="https://untdf.edu.ar/css/fresco.min.css">
+
+	<style type="text/css">
+		.orbit-container {
+			height: 379px;
+		}
+
+		/* Set to height of slides */
+
+		.orbit-container .orbit-slides-container>* {
+			position: relative;
+			margin-left: 0;
+			float: left;
+			height: 100%;
+		}
+
+		@media screen and (max-width: 39.9375em) {
+			div.banner {
+				margin-bottom: 10px;
+			}
+		}
+
+		.video-container {
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+		}
+
+		.video-container::after {
+			padding-top: 56.25%;
+			display: block;
+			content: '';
+		}
+
+		.video-container iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<a class="show-on-focus" href="#contenido">Ir al contenido</a>
+	<div class="row">
+		<div class="large-12 columns marco">
+			<script>
+				(function () {
+					var cx = '011732231537690067627:pmvjbxwrw6q'; // Insert your own Custom Search engine ID here
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = false;
+					gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();
+			</script>
+			<div class="row hide-for-large small-collapse header-responsive">
+				<div class="small-6 columns">
+					<a href="https://untdf.edu.ar">
+						<img src="https://untdf.edu.ar/img/isologotipo_chico.png" style="height: 40px"
+							alt="Logo de la UNTDF">
+					</a>
+				</div>
+				<div class="small-6 columns"
+					style="text-align: right; padding-right: 20px; padding-top: 10px; font-size: 14px;">
+					<a href="http://autogestion.untdf.edu.ar" target="_blank">SIU Guaraní</a>
+					<span style="color: #ffffff; font-weight: bold; padding-left: 10px; padding-right: 10px;">|</span>
+					<a href="https://moodle.untdf.edu.ar" target="_blank">Moodle</a>
+				</div>
+			</div>
+			<div class="row hide-for-large small-collapse header-responsive">
+				<div class="buscadormovil">
+					<div class="gcse-searchbox-only" data-resultsUrl="https://untdf.edu.ar/resultados"
+						data-queryParameterName="consulta"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="row show-for-large">
+					<div class="large-12 columns" style="position: relative;">
+						<a href="https://untdf.edu.ar"><img src="https://untdf.edu.ar/img/isologotipo.png"
+								class="isologo" alt="Isologo de la UNTDF"></a>
+						<img src="https://untdf.edu.ar/img/contenedor_marca.png" role="presentation"
+							class="isologofondo" alt="">
+						<img src="https://untdf.edu.ar/uploads/encabezados/turba2.jpg" role="presentation"
+							class="imagenheader" alt="">
+						<div class="botones">
+							<div class="links">
+								<a class="guarani" href="http://autogestion.untdf.edu.ar" target="_blank"><img
+										src="https://untdf.edu.ar/img/siu_guarani.png" alt="&quot;Acceso al "></a>
+								<a class="intranet" href="http://intranet.untdf.edu.ar" target="_blank"><img
+										src="https://untdf.edu.ar/img/intranet.png"
+										alt="&quot;Acceso a la Intranet"></a>
+								<br />
+								<a class="facebook"
+									href="https://www.facebook.com/UniversidadNacionalTDF.Antartida.IslasAtlanticoSur"
+									target="_blank"><img src="https://untdf.edu.ar/img/icono_facebook.png"
+										alt="Acceso a la página de Facebook"></a>
+								<a class="instagram" href="https://www.instagram.com/untdf_universidad"
+									target="_blank"><img src="https://untdf.edu.ar/img/icono_instagram.png"
+										alt="Acceso a Instagram"></a>
+								<a class="twitter" href="https://twitter.com/UNTDF" target="_blank"><img
+										src="https://untdf.edu.ar/img/icono_twitter.png" alt="Acceso a Twitter"></a>
+								<a class="youtube" href="https://www.youtube.com/user/UNIVERSIDADTDF"
+									target="_blank"><img src="https://untdf.edu.ar/img/icono_youtube.png"
+										alt="Acceso al canal de YouTube"></a>
+
+								<a href="#" class="radio"
+									onclick="window.open('https://untdf.edu.ar/radioenvivo','Radio UNTDF','resizable,width=765,height=300'); return false;"
+									target="_blank"><img src="https://untdf.edu.ar/img/radio.png"
+										alt="Acceso a la Radio UNTDF"></a>
+							</div>
+
+							<div class="buscador">
+								<div class="gcse-searchbox-only" data-resultsUrl="https://untdf.edu.ar/resultados"
+									data-queryParameterName="consulta"></div>
+								<!-- div id="buscador"></div -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" role="navigation">
+				<div class="large-12 columns" style="padding: 0px">
+					<div class="title-bar" data-responsive-toggle="menu_principal" data-hide-for="medium">
+						<button class="menu-icon" type="button" data-toggle></button>
+						<div class="title-bar-title" data-toggle>Desplegar menú</div>
+					</div>
+					<div class="top-bar" id="menu_principal" role="menubar">
+						<ul role="menu" class="menu-bar vertical medium-horizontal menu"
+							data-back-button="<li class='js-drilldown-back'><a>&laquo;&nbsp;Volver</a></li>"
+							data-closing-time="200" data-responsive-menu="drilldown medium-dropdown">
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/institucional/universidad/gobierno">Institucional</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institucional/universidad">La UNIVERSIDAD</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/universidad/autoridades">Autoridades</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/universidad/gobierno">Gobierno</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/universidad/creacion">Creaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/universidad/infraestructura">Infraestructura</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/universidad/plan_estrategico_2026">Plan
+													Estrat&eacute;gico 2026</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/universidad/informe_de_gestion_20162019">Informe
+													de Gesti&oacute;n 2016-2019</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institucional/secretarias">Secretar&iacute;as</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li aria-haspopup="true">
+												<a
+													href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica">Secretar&iacute;a
+													Acad&eacute;mica</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/secretaria_academica">Secretar&iacute;a
+															Acad&eacute;mica</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/direccion_de_estudiantes">Direcci&oacute;n
+															de Estudiantes</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/direccion_de_asuntos_academicos">Direcci&oacute;n
+															de Asuntos Acad&eacute;micos</a></li>
+													<li aria-haspopup="true">
+														<a
+															href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/escuela_de_idiomas">Escuela
+															de Idiomas</a>
+														<ul class="menu" role="menu" style="white-space: nowrap;">
+															<li aria-haspopup="true">
+																<a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/escuela_de_idiomas/tutorias_hibridas_de_idiomas_2022">TUTOR&Iacute;AS
+																	H&Iacute;BRIDAS DE IDIOMAS 2022</a>
+																<ul class="menu" role="menu"
+																	style="white-space: nowrap;">
+																	<li role="menuitem"><a
+																			href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/escuela_de_idiomas/tutorias_hibridas_de_idiomas_2022/tutorias_hibridas_de_idiomas_2022">TUTOR&Iacute;AS
+																			H&Iacute;BRIDAS DE IDIOMAS 2022</a></li>
+																</ul>
+															</li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/escuela_de_idiomas/escuela_de_idiomas">Escuela
+																	de Idiomas</a></li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/escuela_de_idiomas/ingles_academico_oral">INGL&Eacute;S
+																	ACAD&Eacute;MICO ORAL</a></li>
+														</ul>
+													</li>
+													<li aria-haspopup="true">
+														<a
+															href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento">Sistema
+															de Bibliotecas y Gesti&oacute;n del Conocimiento</a>
+														<ul class="menu" role="menu" style="white-space: nowrap;">
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento/sobre_nosotros_">Sobre
+																	Nosotros</a></li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento/centro_de_documentacion_antartica">Centro
+																	de Documentaci&oacute;n Ant&aacute;rtica</a></li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento/centro_de_documentacion_anne_chapman">Centro
+																	de Documentaci&oacute;n Anne Chapman</a></li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento/servicios_bibliotecarios">Servicios
+																	Bibliotecarios</a></li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento/recursos_digitales">Recursos
+																	Digitales</a></li>
+															<li role="menuitem"><a
+																	href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento/contacto">Contacto</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/secretarias/secretaria_de_ciencia_y_tecnologia">Secretaria
+													de Ciencia y Tecnolog&iacute;a</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/secretarias/secretaria_de_extension">Secretaria
+													de Extensi&oacute;n</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/secretarias/secretaria_general">Secretar&iacute;a
+													General</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a
+											href="https://untdf.edu.ar/institucional/comunicacion">Comunicaci&oacute;n</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/comunicacion/recursos_graficos">Recursos
+													Gr&aacute;ficos</a></li>
+											<li aria-haspopup="true">
+												<a
+													href="https://untdf.edu.ar/institucional/comunicacion/radiountdf1069">RadioUNTDF</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institucional/comunicacion/radiountdf1069/radiountdf">RadioUNTDF</a>
+													</li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institucional/comunicacion/radiountdf1069/programacion">Programaci&oacute;n</a>
+													</li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institucional/comunicacion/radiountdf1069/contacto">Contacto</a>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institucional/cooperacion_internacional">Cooperaci&oacute;n
+											Internacional</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/cooperacion_internacional/convenios">Convenios</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/cooperacion_internacional/convocatorias">Convocatorias</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/cooperacion_internacional/links_de_interes_para_becas_de_movilidad">Links
+													de inter&eacute;s para becas de movilidad</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institucional/concursos">Concursos</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/concursos/docentes">Concursos
+													Docentes</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/concursos/concursos_nodocentes">Concursos
+													Nodocentes</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/concursos/material_de_estudio_concursos_no_docentes">Material
+													de Estudio Concursos No Docentes</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institucional/convocatorias">Convocatorias</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/convocatorias/vigentes">Vigentes</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/convocatorias/finalizadas">Finalizadas</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/convocatorias/material_de_estudio">Material
+													de Estudio</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institucional/compras_y_contrataciones">Compras y
+											contrataciones</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/proveedores">PROVEEDORES</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/obra_publica">Obra
+													P&uacute;blica</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/pac">Plan
+													Anual de Contrataciones</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/direccion_de_compras_y_contrataciones">Direcci&oacute;n
+													de Compras y contrataciones</a></li>
+											<li role="menuitem"><a
+													href="http://compras.untdf.edu.ar/diaguita/aplicacion.php?&amp;ai=diaguita||110000003"
+													target="_blank">Procedimientos de Selecci&oacute;n</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/normativa">Normativa</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/guia_de_procedimientos">Gu&iacute;a
+													de Procedimientos</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institucional/compras_y_contrataciones/portal_universidades_compran">Portal
+													Universidades Compran</a></li>
+										</ul>
+									</li>
+									<li role="menuitem"><a href="http://www.untdf.edu.ar/reglamentacion"
+											target="">Reglamentaci&oacute;n</a></li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/institutos/institutos">Institutos</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institutos/icpa">Instituto de Ciencias Polares,
+											Ambiente y Recursos Naturales</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icpa/informacion">Informaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icpa/carreras">Carreras</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icpa/investigacion">Investigaci&oacute;n</a>
+											</li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institutos/icse">Instituto de Cultura Sociedad y
+											Estado</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icse/informacion">Informaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icse/equipo_de_gestion">Equipo
+													de gesti&oacute;n</a></li>
+											<li aria-haspopup="true">
+												<a href="https://untdf.edu.ar/institutos/icse/grado">Carreras de
+													grado</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_seguridad_publica">Licenciatura
+															en SEGURIDAD P&Uacute;BLICA</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_ciencia_politica">Licenciatura
+															en CIENCIA POL&Iacute;TICA</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_medios_audiovisuales">Licenciatura
+															en MEDIOS AUDIOVISUALES</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_sociologia">Licenciatura
+															en SOCIOLOG&Iacute;A</a></li>
+												</ul>
+											</li>
+											<li aria-haspopup="true">
+												<a
+													href="https://untdf.edu.ar/institutos/icse/investigacion_y_extension">Investigaci&oacute;n
+													y extensi&oacute;n</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/investigacion_y_extension/charlas_e_informes">Charlas
+															e Informes</a></li>
+												</ul>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icse/jornadasicse">Jornadas de
+													Investigadores y Estudiantes</a></li>
+											<li aria-haspopup="true">
+												<a
+													href="https://untdf.edu.ar/institutos/icse/publicaciones">Publicaciones</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/publicaciones/fuegia">Fuegia</a>
+													</li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/icse/publicaciones/sociedad_fueguina">Sociedad
+															Fueguina</a></li>
+												</ul>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icse/laboratorio_de_medios">Laboratorio
+													de Medios</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icse/carreras">Carreras</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/icse/reglamentoicse">Reglamentaci&oacute;n
+													ICSE</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institutos/idei">Instituto de Desarrollo
+											Econ&oacute;mico e Innovaci&oacute;n</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/informacion">Informaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/autoridadesidei">Autoridades</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/extensionidei">Extensi&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/investigacion">Investigaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/vinculacion">Vinculaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/convocatorias">Convocatorias
+													Vigentes</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/incubaruntdf">IncubarUNTDF</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/carreras">Carreras</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/idei/jornadas">Jornadas</a>
+											</li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/institutos/IEC">Instituto de la Educaci&oacute;n y
+											del Conocimiento</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/IEC/informacion">Informaci&oacute;n</a>
+											</li>
+											<li aria-haspopup="true">
+												<a href="https://untdf.edu.ar/institutos/IEC/carrerasiec">Carreras</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/IEC/carrerasiec/gestion_educativa">Licenciatura
+															en GESTI&Oacute;N EDUCATIVA (CCC)</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/IEC/carrerasiec/especializacion_en_ensenanza_de_la_biologia">Especializaci&oacute;n
+															en ENSE&Ntilde;ANZA DE LA BIOLOG&Iacute;A</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/IEC/carrerasiec/especializacion_en_ensenanza_de_la_lengua_y_la_literatura_">Especializaci&oacute;n
+															en ENSE&Ntilde;ANZA DE LA LENGUA Y LA LITERATURA</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/IEC/carrerasiec/especializacion_en_ensenanza_de_la_matematica">Especializaci&oacute;n
+															en ENSE&Ntilde;ANZA DE LA MATEM&Aacute;TICA</a></li>
+												</ul>
+											</li>
+											<li aria-haspopup="true">
+												<a href="https://untdf.edu.ar/institutos/IEC/diplomas">Diplomas</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/IEC/diplomas/diploma_superior_de_posgrado_en_educacion_sexual_integral_derechos_generos_interseccionalidades">Diploma
+															Superior de Posgrado en Educaci&oacute;n Sexual Integral:
+															Derechos, G&eacute;neros, Interseccionalidades</a></li>
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/institutos/IEC/diplomas/diploma_superior_de_posgrado_en_docencia_e_investigacion_universitaria">Diploma
+															Superior de Posgrado en Docencia e Investigaci&oacute;n
+															Universitaria</a></li>
+												</ul>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/IEC/tutorias">Tutorias</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/IEC/investigacion">Investigaci&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/IEC/extension">Extensi&oacute;n</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/institutos/IEC/ciec">Consejo de
+													Instituto</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/ingresantes/informacion_ingreso_2023">Ingresantes</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/ingresantes/informacion_ingreso_2023">Informaci&oacute;n
+											Ingreso 2023</a></li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/estudiantes/calendario_academico">Estudiantes</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/secretaria_academica">Secretaria
+											Acad&eacute;mica</a></li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/estudiantes/autogestion_de_certificados_">Autogesti&oacute;n
+											de Certificados</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/estudiantes/autogestion_de_certificados_/autogestion_de_certificados_">Autogesti&oacute;n
+													de Certificados</a></li>
+										</ul>
+									</li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/calendario_academico">Calendario
+											Acad&eacute;mico</a></li>
+									<li role="menuitem"><a href="https://untdf.edu.ar/estudiantes/horarios">Horarios de
+											cursada</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/planes_de_estudio">Planes de
+											Estudio</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/reglamento_de_estudios">Reglamento de
+											Estudios</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/formularios">Formularios</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/contactos_para_consultas">Contactos
+											para consultas</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/docentes_tutores">Docentes
+											Tutores</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/titulos_y_diplomas">T&iacute;tulos y
+											Diplomas</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/estudiantes/centro_de_estudiantes">Centro de
+											Estudiantes</a></li>
+									<li role="menuitem"><a href="https://untdf.edu.ar/estudiantes/siu_guarani">SIU
+											Guaran&iacute;</a></li>
+									<li role="menuitem"><a href="https://untdf.edu.ar/estudiantes/moodle">Moodle</a>
+									</li>
+									<li role="menuitem"><a href="https://untdf.edu.ar/estudiantes/turnos">Turnos</a>
+									</li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="">Carreras</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<a href="#" style="font-family: 'Roboto Condensed'">&nbsp;&nbsp;Pregrado</a>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/analista_universitario_en_sistemas">Analista
+											Universitario en SISTEMAS</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/tecnico_en_turismo">Técnico en
+											TURISMO</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/tecnico_universitario_contable">Técnico
+											Universitario CONTABLE</a></li>
+									<a href="#" style="font-family: 'Roboto Condensed'">&nbsp;&nbsp;Grado</a>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icpa/biologia">Licenciatura en
+											BIOLOGÍA</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icpa/ciencias_ambientales">Licenciatura
+											en CIENCIAS AMBIENTALES</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icpa/geologia">Licenciatura en
+											GEOLOGÍA</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/administracion_publica">Licenciatura
+											en ADMINISTRACIÓN PÚBLICA</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/contador_publico">CONTADOR
+											PÚBLICO</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/ingenieria_industrial">INGENIERÍA
+											INDUSTRIAL</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/economia">Licenciatura en
+											ECONOMÍA</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/gestion_empresarial">Licenciatura
+											en GESTIÓN EMPRESARIAL</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/turismo">Licenciatura en
+											TURISMO</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/idei/sistemas">Licenciatura en
+											SISTEMAS</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/IEC/carrerasiec/gestion_educativa">Licenciatura
+											en GESTIÓN EDUCATIVA (CCC)</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_seguridad_publica">Licenciatura
+											en SEGURIDAD PÚBLICA</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_ciencia_politica">Licenciatura
+											en CIENCIA POLÍTICA</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_medios_audiovisuales">Licenciatura
+											en MEDIOS AUDIOVISUALES</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/institutos/icse/grado/licenciatura_en_sociologia">Licenciatura
+											en SOCIOLOGÍA</a></li>
+
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/posgrado/posgrado">Posgrado</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/posgrado/posgrado">Informaci&oacute;n</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/posgrado/ingresantes_2022">Ingresantes 2022</a>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/posgrado/carreras">Carreras</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/carreras/maestria_en_politicas_publicas_para_el_desarrollo_territorial">Maestr&iacute;a
+													en Pol&iacute;ticas P&uacute;blicas para el Desarrollo
+													Territorial</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/carreras/plan_estudios_antarticos">Maestr&iacute;a
+													en Estudios Ant&aacute;rticos</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/carreras/especializacion_en_la_ensenanza_de_la_lengua_y_la_literatura">Especializaci&oacute;n
+													en Ense&ntilde;anza de la Lengua y la Literatura</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/carreras/especializacion_en_la_ensenanza_de_la_biologia">Especializaci&oacute;n
+													en Ense&ntilde;anza de la Biolog&iacute;a</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/carreras/especializacion_en_ensenanza_de_matematica_">Especializaci&oacute;n
+													en Ense&ntilde;anza de Matem&aacute;tica</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/posgrado/diplomas">Diplomas Superiores</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/diplomas/dsp_en_educacion_sexual_integral">DSP
+													en Educaci&oacute;n Sexual Integral</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/diplomas/plan_dps_literatura_latinoamericana">Diploma
+													Superior de Posgrado en Literatura Latinoamericana</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/posgrado/diplomas/diploma_superior_de_posgrado_en_docencia_e_investigacion_universitaria">Diploma
+													Superior de Posgrado en Docencia e Investigaci&oacute;n
+													Universitaria</a></li>
+										</ul>
+									</li>
+									<li role="menuitem"><a href="https://untdf.edu.ar/posgrado/cursos">Cursos</a></li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/extension/secretaria_de_extension">Extensión</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/extension/direccion_de_proyectos_y_diplomaturas">Direcci&oacute;n
+											de Proyectos y Diplomaturas</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/direccion_de_proyectos_y_diplomaturas/proy_ext_y_vol">Proyectos
+													de Extensi&oacute;n y Voluntariado</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/direccion_de_proyectos_y_diplomaturas/diplomaturas_de_extension_universitaria">Diplomaturas
+													de Extensi&oacute;n Universitaria</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/extension/bienestar">Bienestar</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/bienestar_universitario">Bienestar
+													Universitario</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/residencia_universitaria">Residencia
+													Universitaria</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/becas">Becas</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/pasantias">Pasant&iacute;as</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/salud">Salud</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/atencion_al_estudiante">Asistencia
+													Psicol&oacute;gica</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/sala_de_juegos_multiedad">Sala
+													de Juegos Multiedad</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/bienestar/deportes">Deportes y
+													Recreaci&oacute;n</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/extension/produccion_audiovisual">Producci&oacute;n
+											Audiovisual</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/produccion_audiovisual/produccion_audiovisual">Producci&oacute;n
+													Audiovisual</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/produccion_audiovisual/convocatorias">Convocatorias</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/produccion_audiovisual/producciones">Producciones</a>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/produccion_audiovisual/staff_dpa">Staff
+													DPA</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/extension/casa_de_las_artes">Casa de las Artes</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/muestra_virtual_la_mutacion_de_babel">Muestra
+													Virtual &quot;La mutaci&oacute;n de Babel&quot;</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/casa_de_las_artes">Casa
+													de las Artes</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/formacion_no_formal">Formaci&oacute;n
+													no formal</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/muestras">Muestras
+													y cat&aacute;logos</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/agenda_cultural__observatorio_cultural">Agenda
+													Cultural / Observatorio Cultural</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/fortalecimiento_a_las_artes_escenicas">Fortalecimiento
+													a las Artes Esc&eacute;nicas</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/aprovechamiento_de_la_arcilla_local">Aprovechamiento
+													de la Arcilla Local</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/sin_residencia">Sin
+													Residencia</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/casa_de_las_artes/unimovil">UNIm&oacute;vil</a>
+											</li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/extension/ediciones">Ediciones UNTDF</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/ediciones/coleccion_de_eso_no_se_habla">Colecci&oacute;n
+													De eso no se habla</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/ediciones/en_carrera">Colecci&oacute;n
+													En carrera</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/ediciones/reflexiones_presentes">Colecci&oacute;n
+													Reflexiones presentes</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/extension/ediciones/territorios">Colecci&oacute;n
+													Territorios</a></li>
+										</ul>
+									</li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/extension/protocolo_de_genero">Protocolo de
+											G&eacute;nero</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/extension/generos_y_sexualidades">Programa de
+											G&eacute;neros y Sexualidades</a></li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a
+									href="https://untdf.edu.ar/ciencia_y_tecnologia/secretaria_de_ciencia_y_tecnologia">Investigación</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/ciencia_y_tecnologia/secretaria_de_ciencia_y_tecnologia">Secretar&iacute;a
+											de Ciencia y Tecnolog&iacute;a</a></li>
+									<li aria-haspopup="true">
+										<a
+											href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion">Investigaci&oacute;n</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li aria-haspopup="true">
+												<a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/becas_evccin_2019_">Becas
+													EVC-CIN 2019</a>
+												<ul class="menu" role="menu" style="white-space: nowrap;">
+													<li role="menuitem"><a
+															href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/becas_evccin_2019_/becas_evccin_2020">Becas
+															EVC-CIN 2020</a></li>
+												</ul>
+											</li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/piduntdf_2021">PIDUNTDF
+													2021</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/piduntdf_2019">PIDUNTDF
+													2019</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/piduntdf_2018a">PIDUNTDF
+													2018</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/piduntdf_2017">PIDUNTDF
+													2017</a></li>
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/investigacion/piduntdf_2016">PIDUNTDF
+													2016</a></li>
+										</ul>
+									</li>
+									<li aria-haspopup="true">
+										<a href="https://untdf.edu.ar/ciencia_y_tecnologia/vinculacion">Vinculaci&oacute;n
+											Tecnol&oacute;gica</a>
+										<ul class="menu" role="menu" style="white-space: nowrap;">
+											<li role="menuitem"><a
+													href="https://untdf.edu.ar/ciencia_y_tecnologia/vinculacion/uvt">U.V.T.</a>
+											</li>
+										</ul>
+									</li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/ciencia_y_tecnologia/programa_nexos">Programa
+											Nexos</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/ciencia_y_tecnologia/sigeva_untdf">SIGEVA
+											UNTDF</a></li>
+								</ul>
+							</li>
+							<li role="menuitem" aria-haspopup="true">
+								<a href="https://untdf.edu.ar/coronavirus/coronavirus">CORONAVIRUS</a>
+								<ul class="menu" role="menu" style="white-space: nowrap;">
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/coronavirus/coronavirus">INFORMACION OFICIAL</a>
+									</li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/coronavirus/simulador_de_epidemias">Simulador de
+											Epidemias</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/coronavirus/decisiones_estrategicas">Decisiones
+											estrat&eacute;gicas</a></li>
+									<li role="menuitem"><a href="https://untdf.edu.ar/coronavirus/mas_pymes">M&Aacute;S
+											PYMES</a></li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/coronavirus/covid19_en_tdf">COVID-19 en TDF</a>
+									</li>
+									<li role="menuitem"><a
+											href="https://untdf.edu.ar/coronavirus/contactos_academicos">Contactos
+											Acad&eacute;micos</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row show-for-large" role="presentation">
+				<div class="large-12 columns" style="height: 30px;">&nbsp;</div>
+			</div>
+			<!-- Encabezados temporales -->
+			<div class="row show-for-medium" role="presentation" style="margin-bottom: 15px;">
+				<div class="large-12 columns"><a href="https://untdf.edu.ar/ingresantes/informacion_ingreso_2023"><img
+							src="https://untdf.edu.ar/img/Banner_ingreso 2023.jpg" /></a></div>
+			</div>
+			<div class="row show-for-small-only" role="presentation" style="margin-bottom: 15px;">
+				<div class="large-12 columns"><a href="https://untdf.edu.ar/ingresantes/informacion_ingreso_2023"><img
+							src="https://untdf.edu.ar/img/Banner_ingreso 2023_movil.jpg" /></a></div>
+			</div>
+			<!-- Encabezados temporales -->
+			<div class="row" role="presentation">
+				<div class="large-12 columns" style="height: 10px;">&nbsp;</div>
+			</div>
+			<div role="main" id="contenido" tabindex="0">
+				<div class="row collapse">
+					<div class="large-6 small-12 columns" style="position: relative;">
+						<div class="noticia destacada">
+							<div class="orbit" id="noticias" role="region" aria-label="Favorite Space Pictures"
+								data-orbit data-timer-delay="8000" data-pause-on-hover="true">
+								<ul class="orbit-container">
+									<div class="link"><a href="https://untdf.edu.ar/noticias">NOTICIAS</a></div>
+									<button class="orbit-previous"><span class="show-for-sr">Noticia
+											anterior</span>&#9664;&#xFE0E;</button>
+									<button class="orbit-next"><span class="show-for-sr">Próxima
+											noticia</span>&#9654;&#xFE0E;</button>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2332">
+											<img class="orbit-image"
+												src="uploads/noticias/whatsapp_image_2022-10-11_at_150617_1665590564.jpeg"
+												alt="La UNTDF obtuvo dos medallas en los JUAR2022" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													La UNTDF obtuvo dos medallas en los JUAR2022
+												</div>
+											</figcaption>
+										</a>
+									</li>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2331">
+											<img class="orbit-image"
+												src="uploads/noticias/12-10-_dia_del_respeto_a_la_diversidad_cultural-01_1665514150.jpg"
+												alt="En la imagen se puede ver una bandera multicolor de los pueblos originarios flameando sobre muchas personas movilizando.  Encima hay un filtro color amarillo verdoso" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													El 12 de octubre “Día del Respeto a la Diversidad Cultural”
+												</div>
+											</figcaption>
+										</a>
+									</li>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2327">
+											<img class="orbit-image"
+												src="uploads/noticias/web-conociendo_nuestro_contexto_profesional-01_1665500487.jpg"
+												alt="En la imagen se puede ver a los contadores :Rodolfo Di Leo y  Rodolfo Fehrmann" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													Dictarán la conferencia “Conociendo Nuestro Contexto Profesional”
+													para profesionales y estudiantes de Contador Público
+												</div>
+											</figcaption>
+										</a>
+									</li>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2330">
+											<img class="orbit-image"
+												src="uploads/noticias/12-10-aniversario_de_ushuaia-01_1665513861.jpg"
+												alt="En la imagen se puede ver una imagen aérea de Ushuaia con filtro celeste" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													El 12 de octubre - ¡Feliz 138 Aniversario Ushuaia!
+												</div>
+											</figcaption>
+										</a>
+									</li>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2328">
+											<img class="orbit-image"
+												src="uploads/noticias/flyer-extension-web_1665502465.jpg"
+												alt="En la imagen se ve el titulo de la convocatoria “Universidad, Cultura y Territorio 2022” sobre fondo violeta" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													Se extendió el plazo de inscripción a la convocatoria de Proyectos
+													de Extensión “Universidad, Cultura y Territorio 2022&quot;
+												</div>
+											</figcaption>
+										</a>
+									</li>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2329">
+											<img class="orbit-image"
+												src="uploads/noticias/web-ser_guia_de_turismo_y_madre_en_el_fin_del_mundo_-oct-01_1_1665512033.jpg"
+												alt="en la imagen se puede a tres mujeres caminando de espalda por el bosque con el titulo del flyer: Ser Guía de Turismo y madre en el Fin del Mundo: ¿desarrollo profesional versus cuidado familiar?" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													Con enfoque de género se dictará la charla “Ser Guía de Turismo y
+													madre en el Fin del Mundo”
+												</div>
+											</figcaption>
+										</a>
+									</li>
+									<li class="is-active orbit-slide">
+										<a href="https://untdf.edu.ar/noticias/2326">
+											<img class="orbit-image" src="uploads/noticias/img_2382_1665498523.jpg"
+												alt="La flamante Contadora publica Magnolia Sotelo posa con su familia en la puerta de Yrigoyen 879, en pleno ritual del egresado" />
+											<figcaption class="orbit-caption">
+												<div class="titulo">
+													La carrera Contador Público del IDEI suma nuevos egresos
+												</div>
+											</figcaption>
+										</a>
+									</li>
+								</ul>
+								<nav class="orbit-bullets">
+									<button class="is-active" data-slide="0">
+										<span class="show-for-sr">La UNTDF obtuvo dos medallas en los JUAR2022</span>
+									</button>
+									<button data-slide="1">
+										<span class="show-for-sr">En la imagen se puede ver una bandera multicolor de
+											los pueblos originarios flameando sobre muchas personas movilizando. Encima
+											hay un filtro color amarillo verdoso</span>
+									</button>
+									<button data-slide="2">
+										<span class="show-for-sr">En la imagen se puede ver a los contadores :Rodolfo Di
+											Leo y Rodolfo Fehrmann</span>
+									</button>
+									<button data-slide="3">
+										<span class="show-for-sr">En la imagen se puede ver una imagen aérea de Ushuaia
+											con filtro celeste</span>
+									</button>
+									<button data-slide="4">
+										<span class="show-for-sr">En la imagen se ve el titulo de la convocatoria
+											“Universidad, Cultura y Territorio 2022” sobre fondo violeta</span>
+									</button>
+									<button data-slide="5">
+										<span class="show-for-sr">en la imagen se puede a tres mujeres caminando de
+											espalda por el bosque con el titulo del flyer: Ser Guía de Turismo y madre
+											en el Fin del Mundo: ¿desarrollo profesional versus cuidado familiar?</span>
+									</button>
+									<button data-slide="6">
+										<span class="show-for-sr">La flamante Contadora publica Magnolia Sotelo posa con
+											su familia en la puerta de Yrigoyen 879, en pleno ritual del egresado</span>
+									</button>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<div class="large-6 small-12 columns hide-for-small-only">
+						<div class="noticias">
+							<div class="noticia">
+								<a href="https://untdf.edu.ar/noticias/2319">
+									<img src="uploads/noticias/cin_mincyt-3_1656685684_1665064535.jpg"
+										alt="En la imagen se puede ver al Rector Daniel Fernandez en Reunion del CIN" />
+									<div class="contenido">
+										<div class="titulo">Comité Ejecutivo del CIN: la UNTDF recibe a los Rectores y
+											Rectoras de todo el país </div>
+										<div class="bajada">La Universidad fueguina será anfitriona de un encuentro
+											federal que reunirá a autoridades del Sistema Universitario</div>
+									</div>
+								</a>
+							</div>
+							<div class="noticia impar">
+								<a href="https://untdf.edu.ar/noticias/2324">
+									<img src="uploads/noticias/foto_examen_no_docente_ok_1665072536.jpg"
+										alt="en la imagen se puede ver  a las personas rindiendo examen" />
+									<div class="contenido">
+										<div class="titulo">Avanza el proceso de concursos abiertos NoDocentes de la
+											UNTDF </div>
+										<div class="bajada">Dicha inscripción se extiende hasta el 13 de octubre de
+											2022.</div>
+									</div>
+								</a>
+							</div>
+							<div class="noticia">
+								<a href="https://untdf.edu.ar/noticias/2303">
+									<img src="uploads/noticias/web-octubre_rosa_en_la_untdf-01_1664212075.jpg"
+										alt="en la imagen se puede ver una mujer sentada con las piernas abiertas  y tocándose el pecho con una mano" />
+									<div class="contenido">
+										<div class="titulo">Se viene un “Octubre Rosa” para la comunidad universitaria
+											UNTDF</div>
+										<div class="bajada">El objetivo será otorgar turnos para mamografía y
+											sensibilizar a las mujeres sobre la importancia del autoexamen</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row show-for-large" role="presentation">
+					<div class="large-12 columns" style="height: 10px;">&nbsp;</div>
+				</div>
+
+				<div class="row" style="margin-bottom: 10px;">
+					<div class="large-3 small-12 medium-12 columns">
+						<div class="caja" style="font-family: 'Roboto Bold'; text-align: center; color: #a9191b;">ACCESO
+							ESTUDIANTES</div>
+						<div class="link estudiantes">
+							<div><a href="https://moodle.untdf.edu.ar/" target="_blank">AULA VIRTUAL</a></div>
+						</div>
+						<div class="link estudiantes">
+							<div><a href="http://untdf.edu.ar/ingresantes/carreras" target="_blank">CARRERAS</a></div>
+						</div>
+						<div class="link estudiantes">
+							<div><a href="http://untdf.edu.ar/estudiantes/contactos_para_consultas">CONTACTOS PARA
+									CONSULTAS</a></div>
+						</div>
+						<div class="link estudiantes">
+							<div><a href="https://turnos.untdf.edu.ar/" target="_blank">TURNOS</a></div>
+						</div>
+						<div class="link estudiantes">
+							<div><a
+									href="http://www.untdf.edu.ar/institucional/secretarias/secretaria_academica/escuela_de_idiomas">ESCUELA
+									DE IDIOMAS</a></div>
+						</div>
+						<div class="informacion estudiantes" style="height: 315px;">
+							SOLICITUD DE INFORMACIÓN<br />
+							<select name="destinatario" id="destinatario" title="Destinatario"
+								style="font-family: arial; font-weight: 100; font-size: 13px; height: 25px; padding: 2px;">
+								<option style="color: #cbcbcb;" value="">¿A quién le querés escribir?</option>
+								<option value="icpa@untdf.edu.ar">Instituto de Ciencias Polares, Ambiente y Recursos
+									Naturales</option>
+								<option value="icse@untdf.edu.ar">Instituto de Cultura, Sociedad y Estado</option>
+								<option value="idei@untdf.edu.ar">Instituto de Desarrollo Económico e Innovación
+								</option>
+								<option value="iec@untdf.edu.ar">Instituto de Educación y Conocimiento</option>
+								<option value="secretaria.academica@untdf.edu.ar">Secretaría Académica</option>
+								<option value="deyga@untdf.edu.ar">Dirección de Estudiantes</option>
+								<option value="ciu@untdf.edu.ar">Curso de Iniciación Universitaria</option>
+								<option value="mayores25@untdf.edu.ar">Mayores de 25 años</option>
+								<option value="escuela_idiomas@untdf.edu.ar">Escuela de Idiomas</option>
+								<option value="tutoriastecnologicas@untdf.edu.ar">Tutorías Tecnológicas</option>
+								<option value="recursos.didacticos@untdf.edu.ar">Recursos Didácticos</option>
+								<option value="106.9@untdf.edu.ar">RadioUNTDF</option>
+								<option value="prensa@untdf.edu.ar">Prensa</option>
+								<option value="ciencia.tecnologia@untdf.edu.ar">Secretaría de Ciencia y Tecnología
+								</option>
+								<option value="posgrado@untdf.edu.ar">Posgrado</option>
+								<option value="extension@untdf.edu.ar">Secretaría de Extensión Universitaria</option>
+								<option value="bienestar.universitario@untdf.edu.ar">Bienestar Universitario</option>
+							</select>
+							<textarea name="consulta" id="consulta" title="Consulta" rows="4"
+								placeholder="Ingresá tu consulta"
+								style="color: #454545; font-family: arial;"></textarea>
+							<input name="nombre" id="nombre" title="Nombre" placeholder="Ingresá tu nombre completo"
+								style="color: #454545; width: 100%; font-family: arial;"><br />
+							<input name="email" title="e-mail" id="email" placeholder="Ingresá tu dirección de e-mail"
+								style="color: #454545; width: 100%; font-family: arial; margin-top: 15px;"><br />
+							<div style="text-align: right;"><a class="boton rojo" onclick="enviar()"
+									id="enviar">Enviar</a></div>
+							<br />
+						</div>
+					</div>
+
+					<div class="large-6 small-12 medium-12 columns">
+						<div class="caja estudiantes">
+							<div class="titulo">Lucha contra el Cáncer de Mama</div>
+							<div style="position: relative;">
+								<a href="https://www.untdf.edu.ar/noticias/2303">
+									<img src="img/banners/web-octubre rosa en la untdf-01_1664976299.jpg"
+										alt="Octubre Rosa" />
+								</a>
+							</div>
+							<div style="text-align: center;">
+							</div>
+						</div>
+					</div>
+
+					<div class="large-3 small-12 medium-12 columns">
+						<div class="caja" style="font-family: 'Roboto Bold'; text-align: center; color: #a9191b;">
+							COMUNIDAD GENERAL</div>
+						<div class="link comunidad">
+							<div><a href="http://untdf.edu.ar/posgrado/carreras/maestria_en_estudios_antarticos"
+									target="_blank">MAESTRÍA ESTUDIOS ANTÁRTICOS</a></div>
+						</div>
+						<div class="link comunidad">
+							<div><a href="http://www.untdf.edu.ar/coronavirus/mas_pymes" target="_blank">MÁS PYMES</a>
+							</div>
+						</div>
+						<div class="link comunidad">
+							<div><a href="http://untdf.edu.ar/simulador" target="_blank">SIMULADOR DE EPIDEMIAS</a>
+							</div>
+						</div>
+						<div class="link comunidad">
+							<div><a href="http://untdf.edu.ar/coronavirus/decisiones_estrategicas"
+									target="_blank">DECISIONES ESTRATÉGICAS</a></div>
+						</div>
+						<div class="link comunidad">
+							<div><a href="http://untdf.edu.ar/coronavirus/covid19_en_tdf" target="_blank">COVID-19 EN
+									TDF</a></div>
+						</div>
+						<div class="link comunidad">
+							<div><a href="http://untdf.edu.ar/estudiantes/estudioencasa/recursos_didacticos"
+									target="_blank">RECURSOS DIDÁCTICOS</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="row show-for-large" role="presentation">
+					<div class="large-12 columns" style="padding-top: 10px; padding-bottom: 10px">
+						<hr class="divisor" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="large-2 columns banner" style="">
+						<a
+							href="https://untdf.edu.ar/institucional/secretarias/secretaria_academica/sistema_de_bibliotecas_y_gestion_del_conocimiento">
+							<img src="https://untdf.edu.ar/img/banners/botón acceso directo_1644339575.jpg"
+								alt="Acceso" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://www.untdf.edu.ar/institutos/icse/laboratorio_de_medios">
+							<img src="https://untdf.edu.ar/img/banners/botón_lab de medios-270x121-01_1632512023.jpg"
+								alt="Laboratorio de Medios" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://untdf.edu.ar/simulador">
+							<img src="https://untdf.edu.ar/img/banners/simuladordeepidemias-untdf_coronavirus_boton_1588173007.jpg"
+								alt="Simulador de Epidemias" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://untdf.edu.ar/posgrado">
+							<img src="https://untdf.edu.ar/img/banners/posgradountdf_1586278144.jpg" alt="Posgrado" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://untdf.edu.ar/extension/bienestar/residencia">
+							<img src="https://untdf.edu.ar/img/banners/residencia universitaria ushuaia-b 270x121-07_1569339127.jpg"
+								alt="Residencia Universitaria" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://www.untdf.edu.ar/institucional/universidad/plan_estrategico_2026">
+							<img src="https://untdf.edu.ar/img/banners/plan estratégico 270x121-08_1559917221.jpg"
+								alt="Plan Estrátegico UNTDF 2026" />
+						</a>
+					</div>
+				</div>
+				<div class="row show-for-large" role="presentation">
+					<div class="large-12 columns" style="padding-top: 10px; padding-bottom: 10px">
+						<hr class="divisor" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-2 columns banner" style="">
+						<a href="http://www.untdf.edu.ar/extension/ediciones">
+							<img src="https://untdf.edu.ar/img/banners/ediciones untdf 270x121-04_1626286860.jpg"
+								alt="EdicionesUNTDF" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://untdf.edu.ar/institucional/comunicacion/radiountdf1069">
+							<img src="https://untdf.edu.ar/img/banners/radio untdf 270x121-09_1559917241.jpg"
+								alt="Radio UNTDF" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="https://iptrn.untdf.edu.ar/">
+							<img src="https://untdf.edu.ar/img/banners/iptrn 270x121-03_1632422689.jpg"
+								alt="IPTRN - 7ma Conferencia" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://www.untdf.edu.ar/institucional/cooperacion_internacional/convocatorias">
+							<img src="https://untdf.edu.ar/img/banners/convocatorias internacionales-untdf_1581613908.jpg"
+								alt="Convocatorias internacionales UNTDF" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://agendacultural.untdf.edu.ar">
+							<img src="https://untdf.edu.ar/img/banners/agenda cultural 270x121-02_1559916804.jpg"
+								alt="Agenda Cultural" />
+						</a>
+					</div>
+					<div class="large-2 columns banner" style="">
+						<a href="http://10.7.180.101/diaguita/aplicacion.php?fs=1">
+							<img src="https://untdf.edu.ar/img/banners/botonsiu_1632842000.jpg" alt="SIU DIAGUITA" />
+						</a>
+					</div>
+				</div>
+				<div class="row show-for-large" role="presentation">
+					<div class="large-12 columns" style="padding-top: 10px; padding-bottom: 10px">
+						<hr class="divisor" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="large-2 columns banner" style="">
+						<a href="http://untdf.edu.ar/institutos/icse/publicaciones/fuegia">
+							<img src="https://untdf.edu.ar/img/banners/revista fueguia 270x121-06_1562349220.jpg"
+								alt="Revista Fuegia" />
+						</a>
+					</div>
+				</div>
+				<div class="row show-for-large" role="presentation">
+					<div class="large-12 columns" style="padding-top: 10px; padding-bottom: 10px">
+						<hr class="divisor" />
+					</div>
+				</div>
+
+				<div class="row">
+
+					<div class="large-6 small-12 columns">
+						<div class="video-container">
+							<iframe src="https://www.youtube.com/embed/ICkWEnmrxi8" frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowfullscreen></iframe>
+						</div>
+					</div>
+
+
+					<div class="large-3 small-12 columns">
+						<a class="twitter-timeline" data-lang="es" data-height="370"
+							href="https://twitter.com/UNTDF?ref_src=twsrc%5Etfw">Tweets de UNTDF</a>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+					</div>
+
+
+					<div class="large-3 small-12 columns">
+						<div id="fb-root"></div>
+						<script async defer crossorigin="anonymous"
+							src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0&appId=1034153470006783&autoLogAppEvents=1"
+							nonce="HE7wp6eU"></script>
+						<div class="fb-page"
+							data-href="https://www.facebook.com/UniversidadNacionalTDF.Antartida.IslasAtlanticoSur/"
+							data-tabs="timeline" data-height="360" data-small-header="true"
+							data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+							<blockquote
+								cite="https://www.facebook.com/UniversidadNacionalTDF.Antartida.IslasAtlanticoSur/"
+								class="fb-xfbml-parse-ignore"><a
+									href="https://www.facebook.com/UniversidadNacionalTDF.Antartida.IslasAtlanticoSur/">Universidad
+									Nacional de Tierra Del Fuego. UNTDF</a></blockquote>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row show-for-large" role="presentation">
+				<div class="large-12 columns">&nbsp;</div>
+			</div>
+
+			<div class="row show-for-large" role="presentation"
+				style="height: 170px; background-image: url(https://untdf.edu.ar/img/footer.jpg);">
+				<div class="large-3 columns" style="text-align: center; padding-right: 40px;">
+					<img src="https://untdf.edu.ar/img/isologotipo.png" alt="Logo de la UNTDF"
+						style="width: 300px; top: 30px; left: 50px; position: relative; float: left;" />
+				</div>
+				<div class="large-6 columns" style="text-align: center;">
+					<div
+						style="position: relative; font-family: 'Roboto Light'; font-size: 0.95em; color: #ffffff; margin-top: 55px; text-align: left; margin-left: 40px;">
+						<span style="font-weight: bold;">RÍO GRANDE</span>
+						<span> - Thorne 302 | CP 9420 | +54 2964 433-928 | <strong>Campus Río
+								Grande</strong></span></span><br />
+
+						<!--<span style="font-weight: bold;">TOLHUIN</span>
+			<span> - Maestro Cárdenas 308 | CP 9420</span><br />-->
+
+						<span style="font-weight: bold;">USHUAIA</span>
+						<span> - Fuegia Basket 251 | CP 9410 | +54 2901 437864 - 437874- 432403 |
+							<strong>Rectorado</strong></span><br />
+						<span>Yrigoyen 879 | CP 9410 | +54 2901 440-853 | <strong>Campus Ushuaia</strong></span>
+					</div>
+				</div>
+				<div class="large-3 columns" style="text-align: center;">
+					<div style="margin-top: 80px;">
+						<a href="https://www.facebook.com/UniversidadNacionalTDF.Antartida.IslasAtlanticoSur"
+							target="_blank"><img src="https://untdf.edu.ar/img/icono_facebook.png"
+								style="width: 35px; margin-left: 5px;" alt="Acceso a la página de Facebook"></a>
+						<a href="https://www.instagram.com/untdf_universidad" target="_blank"><img
+								src="https://untdf.edu.ar/img/icono_instagram.png"
+								style="width: 35px; margin-left: 5px;" alt="Acceso a Instagram"></a>
+						<a href="https://twitter.com/UNTDF" target="_blank"><img
+								src="https://untdf.edu.ar/img/icono_twitter.png" style="width: 35px; margin-left: 5px;"
+								alt="Acceso a Twitter"></a>
+						<a href="https://www.youtube.com/user/UNIVERSIDADTDF" target="_blank"><img
+								src="https://untdf.edu.ar/img/icono_youtube.png" style="width: 35px; margin-left: 5px;"
+								alt="Acceso al canal de YouTube"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="row hide-for-large" role="presentation">
+				<div class="small-12 columns"
+					style="background-color: #a9191b; font-size: 0.8em; padding-top: 20px; color: #ffffff;">
+					<span><strong>RÍO GRANDE</strong> - Thorne 302 | CP 9420 | +54 2964 433-928 | <strong>Campus Río
+							Grande</strong></span><br />
+					<!--<span><strong>TOLHUIN</strong> - Maestro Cárdenas 308 | CP 9420</span><br /> -->
+					<span><strong>USHUAIA</strong> - Fuegia Basket 251 | CP 9410 | +54 2901 437864 - 437874- 432403 |
+						<strong>Rectorado</strong></span><br />
+					<span>Yrigoyen 879 | CP 9410 | +54 2901 440-853 | <strong>Campus Ushuaia</strong></span>
+				</div>
+			</div>
+			<div class="row hide-for-large" role="presentation">
+				<div class="small-12 columns"
+					style="background-color: #a9191b; font-size: 1em; padding-top: 20px; height: 130px;">
+					<div style="float: left; width: 25%; text-align: center;"><a
+							href="https://www.facebook.com/UniversidadNacionalTDF.Antartida.IslasAtlanticoSur"
+							target="_blank"><img src="https://untdf.edu.ar/img/icono_facebook.png"
+								style="width: 35px; margin-left: 5px;" alt="Acceso a la página de Facebook"></a></div>
+					<div style="float: left; width: 25%; text-align: center;"><a
+							href="https://www.instagram.com/untdf_universidad" target="_blank"><img
+								src="https://untdf.edu.ar/img/icono_instagram.png"
+								style="width: 35px; margin-left: 5px;" alt="Acceso a Instagram"></a></div>
+					<div style="float: left; width: 25%; text-align: center;"><a href="https://twitter.com/UNTDF"
+							target="_blank"><img src="https://untdf.edu.ar/img/icono_twitter.png"
+								style="width: 35px; margin-left: 5px;" alt="Acceso a Twitter"></a></div>
+					<div style="float: left; width: 25%; text-align: center;"><a
+							href="https://www.youtube.com/user/UNIVERSIDADTDF" target="_blank"><img
+								src="https://untdf.edu.ar/img/icono_youtube.png" style="width: 35px; margin-left: 5px;"
+								alt="Acceso al canal de YouTube"></a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://untdf.edu.ar/js/what-input.min.js" language="javascript"></script>
+	<script src="https://untdf.edu.ar/js//foundation.min.js" language="javascript"></script>
+	<script src="https://untdf.edu.ar/js/app.js" language="javascript"></script>
+	<script src="https://untdf.edu.ar/js/fresco.js" language="javascript"></script>
+
+	<script>
+		$(document).ready(function ($) {
+			$(window).trigger('resize');
+		});
+
+		var puntos = "";
+		var intervalo;
+
+		function enviar() {
+			var destinatario = $("#destinatario").val();
+			var email = $("#email").val();
+			var nombre = $("#nombre").val();
+			var consulta = $("#consulta").val();
+			var mensajeValidacion = "";
+
+			if (consulta == "") {
+				mensajeValidacion += "- Debe ingresar una consulta.\n";
+			}
+
+			if (nombre == "") {
+				mensajeValidacion += "- Debe ingresar su nombre.\n";
+			}
+
+			if (destinatario == "") {
+				mensajeValidacion += "- Debe ingresar el destinatario.\n";
+			}
+
+			if (!validarEmail(email)) {
+				mensajeValidacion += "- Debe ingresar una direcciñon de correo electrónico válida.\n";
+			}
+
+			if (mensajeValidacion == "") {
+				intervalo = setInterval(function () {
+					if (puntos.length == 3) {
+						puntos = "";
+					} else {
+						puntos += ".";
+					}
+					$("#enviar").text("Enviando " + puntos)
+				}, 600);
+
+				$.post("https://untdf.edu.ar/contacto", {
+					"destinatario": destinatario,
+					"email": email,
+					"nombre": nombre,
+					"consulta": consulta,
+					"_token": "FUPaHZDWw6K6TYC8eZvhkRi5BXp66JDrI2WAZRRC"
+				}, function (data) {
+					if (data === "ok") {
+						clearInterval(intervalo);
+						$("#destinatario").val("");
+						$("#email").val("");
+						$("#nombre").val("");
+						$("#consulta").val("");
+						$("#enviar").text("Enviar");
+					}
+				});
+			} else {
+				alert(mensajeValidacion);
+			}
+		}
+
+		function validarEmail(email) {
+			var re =
+				/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			return re.test(email);
+		}
+	</script>
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-78388835-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>
