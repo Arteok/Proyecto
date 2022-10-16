@@ -1,17 +1,17 @@
-$(document).ready(function() {
-    $('#menuInicio'.click(function(){
-        $('#inicio'.animatescroll();
+$(document).ready(function () {
+    $("#menuInicio").click(function () {
+        $("#inicio").animatescroll();
     });
 
-    $('#menuServicios'.click(function(){
-        $('#servicios'.animatescroll();
+    $("#menuServicios").click(function () {
+        $("#servicios").animatescroll();
     });
 
-    $('#menuPortfolio'.click(function(){
-        $('#portfolio'.animatescroll();
+    $("#menuPortfolio").click(function () {
+        $("#portfolio").animatescroll();
     });
 
-    $('#menuContacto'.click(function(){
-        $('#contacto'.animatescroll();
+    $("#menuContacto").click(function () {
+        $("#contacto").animatescroll();
     });
 });
